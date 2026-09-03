@@ -1,4 +1,4 @@
-"""HelloAgents Deep Research - A deep research assistant powered by HelloAgents."""
+"""Paper Agent Deep Research - A deep research assistant."""
 
 __version__ = "0.0.1"
 

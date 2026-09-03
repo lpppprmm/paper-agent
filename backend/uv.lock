@@ -431,7 +431,7 @@ wheels = [
 ]
 
 [[package]]
-name = "helloagents-deep-researcher"
+name = "paper-agent-backend"
 version = "0.0.1"
 source = { editable = "." }
 dependencies = [

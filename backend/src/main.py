@@ -104,7 +104,7 @@ def _build_config(payload: ResearchRequest) -> Configuration:
 
 
 def create_app() -> FastAPI:
-    app = FastAPI(title="HelloAgents Deep Researcher")
+    app = FastAPI(title="Paper Agent Deep Researcher")
 
     app.add_middleware(
         CORSMiddleware,

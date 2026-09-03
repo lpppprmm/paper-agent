@@ -1,4 +1,4 @@
-"""Search dispatch helpers leveraging HelloAgents SearchTool."""
+"""Search dispatch helpers leveraging agent search tools."""
 
 from __future__ import annotations
 

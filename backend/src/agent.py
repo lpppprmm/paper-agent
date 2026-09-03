@@ -50,7 +50,7 @@ MAX_GAP_RESEARCH_ARGUMENTS = 3
 
 
 class DeepResearchAgent:
-    """Coordinator orchestrating TODO-based research workflow using HelloAgents."""
+    """Coordinator orchestrating TODO-based research workflow."""
 
     def __init__(self, config: Configuration | None = None, mode: str = "report") -> None:
         """Initialise the coordinator with configuration and shared tools."""
@@ -128,7 +128,7 @@ class DeepResearchAgent:
     # Public API
     # ------------------------------------------------------------------
     def _init_llm(self) -> HelloAgentsLLM:
-        """Instantiate HelloAgentsLLM following configuration preferences."""
+        """Instantiate the configured LLM client."""
         llm_kwargs: dict[str, Any] = {"temperature": 0.0}
 
         model_id = self.config.llm_model_id or self.config.local_llm

@@ -1,3 +1,3 @@
-# HelloAgents Deep Researcher
+# Paper Agent
 
-Fully local web research and summarization assistant powered by HelloAgents.
+Local web research and summarization assistant.
